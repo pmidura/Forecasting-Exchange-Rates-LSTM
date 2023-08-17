@@ -765,4 +765,5 @@ def get_dkk_pred():
     return predictions_DKK
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000, host='localhost')
+    # app.run(debug=True, port=5000, host='localhost')
+    app.run(host="0.0.0.0", port=5000)
